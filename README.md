@@ -1,7 +1,7 @@
-## GUI Pwn
+# GUI Pwn - A Proof-of-Concept for GUI-Based UAC Bypass
 
-GUI Pwn is a proof-of-concept for a highly reliable GUI-based UAC bypass. It has always been said that GUI bypasses are "inherently" unreliable, and I set out to prove that this is not the case.
+## Overview
 
-It even has a [fairly low detection rate.](https://www.virustotal.com/gui/file/5b345e99ad733a73876dbee4186d3da89b5fab893164e4362d542f82f9a9fe7b/summary)
+GUI Pwn is a proof-of-concept project developed to demonstrate the viability of a highly reliable GUI-based User Account Control (UAC) bypass. Traditionally, GUI bypasses have been deemed "inherently" unreliable. This project challenges that notion, providing a robust and consistent method for UAC bypass with a relatively low detection rate.
 
-Functionality has been subtley disabled to prevent malicious use of this code, particularly by copy/pasting.
+**Disclaimer:** This project is for educational and demonstration purposes only. Certain functionalities have been subtly disabled to prevent malicious usage and to discourage misuse. Please use responsibly and ethically.
