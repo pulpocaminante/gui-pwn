@@ -1,4 +1,4 @@
-# GUI Pwn - A Proof-of-Concept for GUI-Based UAC Bypass
+# GUI Pwn
 
 ## Overview
 
