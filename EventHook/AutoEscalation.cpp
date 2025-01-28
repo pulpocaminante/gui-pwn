@@ -34,7 +34,7 @@ ESCALATION_API void CALLBACK exmHandleWinEvent(HWINEVENTHOOK hook, DWORD event, 
 {
 	IAccessible* pAcc = NULL;
 	VARIANT varChildl;
-	HWND hwndNull;
+	//HWND hwndNull;
 	HRESULT hr = AccessibleObjectFromEvent(hwnd, idObject, idChild, &pAcc, &varChild);
 	if ((hr == S_OK) && (pAcc != NULL))
 	{
@@ -44,7 +44,7 @@ ESCALATION_API void CALLBACK exmHandleWinEvent(HWINEVENTHOOK hook, DWORD event, 
 		{
 			ILog("Got window, performing callback");
 			exmButtonCallback(hwnd);
-			exmButtonCallback(hwndNull);
+			//exmButtonCallback(hwndNull);
 		}
 		//ILog("%S\n", bstrName);
 		SysFreeString(bstrName);
