@@ -43,7 +43,7 @@ ESCALATION_API void CALLBACK exmHandleWinEvent(HWINEVENTHOOK hook, DWORD event, 
 		if (wcsncmp(bstrName, L"Very legit thing", 16) == 0)
 		{
 			ILog("Got window, performing callback");
-		//	exmButtonCallback(hwnd);
+			exmButtonCallback(hwnd);
 			exmButtonCallback(hwndNull);
 		}
 		//ILog("%S\n", bstrName);
